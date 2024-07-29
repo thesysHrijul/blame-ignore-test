@@ -1,6 +1,12 @@
 function myFunction() {
   console.log('This function has an indentation level of 2 spaces');
-  mySecondFunctionWithLotsOfParams('hello', 'this', 'is', 'my', 'function');
+  mySecondFunctionWithLotsOfParams(
+	  'hello', 
+	  'this', 
+	  'is', 
+	  'my', 
+	  'function'
+  );
 }
 
 function mySecondFunctionWithLotsOfParams(a: string, b: string, c: string, d: string, e: string) {
